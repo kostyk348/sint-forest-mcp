@@ -1,0 +1,15 @@
+[project]
+name = "sint-forest-mcp"
+version = "0.1.0"
+description = "MCP server for Experience Ensemble / Random Forest for Agents"
+requires-python = ">=3.11"
+dependencies = [
+    "fastmcp>=0.4.0",
+]
+
+[tool.setuptools.packages.find]
+include = ["forest*"]
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
